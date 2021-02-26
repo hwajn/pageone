@@ -10,9 +10,33 @@
     
 <script type="text/javascript" src="clickdrag.js"></script>
 
+
 </head>
 
     <style>
+
+body{overflow:none;scroll:none;position:fixed;}
+
+
+
+.first {
+    
+    animation-delay:none;}
+ .second {
+    
+   animation-delay:5s;
+
+;}
+
+marquee{  font-family: elliotts-jigsaw-dropshadow, sans-serif;
+      font-style: normal;
+    font-weight: 100;
+    font-size: 150pt;
+    
+    width: 180%;
+    color: rgb(255, 0, 221)}
+
+
 
 #cake {position:absolute;}
 .cake {position:absolute;}
@@ -1177,8 +1201,8 @@ background-color:#e4d7ca;}
 height:30px;
 background-color:#f7f5f3;}
 
-
-pizzarow1obj1 {height:30px;
+.pizza{position:absolute;}
+.pizzarow1obj1 {height:30px;
     width:30px; 
     background-color:#fdf9f6;}
 .pizzarow1obj2 {height:30px;
@@ -2294,22 +2318,24 @@ width:300px;}
   body {
     background-color:white;}
 
+    .fooditems{transform:scale(1.0)}
+
     .post {width:544.11px;height:90px;}
     .test {width:544.11px;height:90px;}
-    .draggable.lemonade{    left: 10vw;
-    top: 10vh;transform:scale(1.1);transform: rotate(15deg);}
+    .draggable.lemonade{    left: 20vw;
+    top: 20vh;transform: rotate(0deg);}
 
     .draggable.borger{    left: 80vw;
-    top: 0vh;transform:scale(1.1) rotate(-10deg);}
+    top: 0vh rotate(0deg);}
 
-    .draggable.pizza{    left: 10vw;
-    top: 10vh;transform:scale(1.1);transform: rotate(15deg);}
+    .draggable.pizza{    left: 0vw;
+    top: -15vh;transform: rotate(0deg);}
 
 
     .draggable.fishy{    left: 55vw;
-    top: 45vh;transform:scale(1.1) rotate(40deg);}
+    top: 25vh;transform:scale(1.1) rotate(0deg);}
     .draggable.cake{    left: 30vw;
-    top: 25vh;transform:scale(1.1);}
+    top: 25vh;}
 
     .USER.OP{right: 170px;
         top: 185px;}
@@ -2854,6 +2880,7 @@ text-align:right;
 
 <body>
 
+        
     <button id="buttontest" type="button" class="btn-primary" style="position:absolute; top:0vh;left:0vw;">show/hide</button>
     
 
@@ -2884,7 +2911,7 @@ text-align:right;
 
                                                 
                                                 <div class="USER OP">skyeluna, member since '14, 23 posts</div>
-                                                <div class="BACK opinvisalign">
+                                                <div class="BACK opinvisalign" style="color:white;">
                                                       JUST <br>STARTED<br>
                                                      INVISALIGN<br>
                                                 </div>
@@ -3716,7 +3743,8 @@ text-align:right;
 
 
 
-<div class='pizza'>
+<div class='draggable pizza'>
+    <div class='pizzachild'>
     
 
             <div class='pizzarow1'>
@@ -3942,7 +3970,7 @@ text-align:right;
         <div class='pizzarow19'>
             <div class='pizzarow19obj1'></div>
             </div>
-
+            <!pizzachild--></div>
         <!pizza--></div>
 
 <!fooditems--></div>   
@@ -3977,7 +4005,9 @@ text-align:right;
 
 
   <script type="text/javascript" src="clickdrag.js"></script> 
-
+  <marquee behavior="scroll" direction="left" scrollamount="20" class="marquee first">JUST STARTED INVISALIGN</marquee>
+  <marquee behavior="scroll" direction="left" scrollamount="20" class="marquee second">JUST STARTED INVISALIGN</marquee>
 </body>
+
 
 </html>
