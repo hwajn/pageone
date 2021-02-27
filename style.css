@@ -1618,3 +1618,14 @@ ul, #myUL {
     
         .pizzarow19obj1 {position:absolute;
         left:0px;}
+
+
+        .marquee {
+            white-space: nowrap;
+            width: 100vw;
+            height:auto;
+            color: rgb(255, 0, 221);
+            overflow:visible;
+            top:calc(50vh + -150px)
+;
+        }
