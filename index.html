@@ -15,6 +15,24 @@
 
     <style>
 
+
+.drag {
+   position: absolute;
+   border: 1px solid #89B;
+   background: #BCE;
+   height: 58px;
+   width: 58px;
+   cursor: move;
+   top: 120px;
+   }
+#container {
+   height: 299px;
+   border: 1px dashed #888;
+   }
+
+
+
+
 body{overflow:none;scroll:none;position:fixed;}
 
 
@@ -27,7 +45,10 @@ marquee{  font-family: elliotts-jigsaw-dropshadow, sans-serif;
     font-size: 150pt;
     letter-spacing:-20pt;
     width: 100%;
-position:relative;}
+position:relative;
+top:calc(50vh + -150px);
+
+}
 
 
 
@@ -3981,8 +4002,6 @@ text-align:right;
 
 
 
-
-
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.js"></script>
     <script>
         $(document).ready(function () {
@@ -3991,7 +4010,9 @@ text-align:right;
             });
         });
     </script>
+
 <script>
+
     var toggler = document.getElementsByClassName("caret");
     var i;
     
@@ -4010,9 +4031,13 @@ text-align:right;
 
 
 
-    <marquee behavior="scroll" direction="left" class="marquee"scrollamount="10" position:relative;></marquee>
+    <marquee behavior="scroll" direction="left" class="marquee"scrollamount="30"></marquee>
   <script type="text/javascript" src="clickdrag.js"></script> 
   <script type="text/javascript" src="marqueescroll.js"></script> 
+  <script type="text/javascript" src="eventdrag.js"></script> 
+
+
+
 
 </body>
 
