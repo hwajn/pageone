@@ -4,7 +4,7 @@ $('.marquee').html(rssContent);
 /*Start of Plugin*/
 (function( $ ) {
 $.fn.marquee = function(params){
-    params = $.extend( {direction : 'left',duration : '100', delayStart : '0'}, params);
+    params = $.extend( {direction : 'left',duration : '2000', delayStart : '0'}, params);
     var duration = parseInt(params.duration);
     var delay = parseInt(params.delayStart);
     
@@ -60,5 +60,5 @@ $('.marquee').marquee({
     'delayStart':'0',
     
     //Set the duration of marquee in millisecond
-    'duration':'5000'
+    'duration':'8000'
 });

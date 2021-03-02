@@ -2,7 +2,7 @@
 <html>
 
 <head>
-
+    <meta charset="utf-8"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/dhk4mrk.css">
 
@@ -15,7 +15,7 @@
 
     <style>
 
-
+  
 .drag {
    position: absolute;
    border: 1px solid #89B;
@@ -29,7 +29,7 @@
    height: 299px;
    border: 1px dashed #888;
    }
-
+.caret::before {background-color:red;color:white;}
 
 
 
@@ -42,8 +42,8 @@ body{overflow:none;scroll:none;position:fixed;}
 marquee{  font-family: elliotts-jigsaw-dropshadow, sans-serif;
       font-style: normal;
     font-weight: 100;
-    font-size: 150pt;
-    letter-spacing:-20pt;
+    font-size: 200pt;
+    letter-spacing:-30pt;
     width: 100%;
 position:relative;
 top:calc(50vh + -150px);
@@ -1760,18 +1760,27 @@ body {width:100%;}
     background-color: red; 
   }
 
-
+.fooditems {transform:scale(.5);}
+.lemonade {left:400vw;top:30vh;}
+.cake {left:-400vw;top:140vh;}
+.fishy {left:-800vw;top:-10vh;}
+.borger {left:200vw;top:30vh;}
+.pizza {left:500vw;top:50vh;}
 .post {width:544.11px;height:90px;}
     .test {width:544.11px;height:90px;}
     
     .USER.OP{right: 170px;
         top: 185px;}
-    .BACK.opinvisalign{    left: -773px;
-        top: -226px;}
-    .WD.op {    top: -98px;
+        
+        .BACK.opinvisalign{display:none;}
+    .WD.op {    top: 127px;
     left: -7px;}
-    .whole.op{top:15vh;left:12vw;transform:scale(.7);}
-    .caret.opinvisalign {top:20vh;left:30vw}
+    .whole.op{      left: -86px;
+    top: -31px;transform:scale(.6);width:500px;}
+    .caret.opinvisalign {top: 23vh;
+    left: 44vw; color:red;}
+
+
 
 
         #uncomfortable {position:absolute;left: 114pt;
@@ -1780,14 +1789,14 @@ body {width:100%;}
     top: -172pt;}
         #ofmyteeth{position:absolute;width:200px;left: 203pt;    top: -148pt;}
         #all{position:absolute;  left: 247pt;
-    top: -122.5pt;}
+    top: -120.5pt;}
         #normal{position:absolute;left: 5pt; top: -111pt;}
 
 
         .caret.replyone {    top: calc(53px + 66vh);
     left: calc(9px + 25vw);}
-        .whole.replyone {position:absolute;    top: -28px;
-    left: -65px;transform:scale(.7);}
+        .whole.replyone {position:absolute;    top: -34px;
+    left: -39px;transform:scale(.7);}
         .post.replyone {text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
                             top: -6px;}
         .USER.replyone {top: 35px;
@@ -1799,8 +1808,9 @@ body {width:100%;}
 
   
         .caret.replytwo{top:calc(75px + 0vh);left:10px;width:500px;}
-        .whole.replytwo{top: calc(-34px + 0vh);width:500px;
-    left: calc(-60px + 0vw);transform:scale(.7);}
+        .whole.replytwo{    top: calc(-41px + 0vh);
+    width: 500px;
+    left: calc(-38px + 0vw);transform:scale(.7);}
         .POST.replytwo{color:transparent;width:500.11px; height:119px;}
         .USER.replytwo{    right: -89px;    top: 112px;;}
         .WD.replytwo{transform:scale(1.2);}
@@ -1832,7 +1842,7 @@ body {width:100%;}
 .caret.zinc{       top: calc(40vh + 23px);
     left: calc(18px + 0vw);}
 .whole.zinc{      top: 10px;
-    left: -22px;width:500px;transform:scale(0.7);}
+    left: 2px;width:500px;transform:scale(0.7);}
 .POST.zinc{width:500px;}
 .USER.zinc{    right: -45px;
     top: 4px;}
@@ -1862,8 +1872,8 @@ body {width:100%;}
 
                                 .caret.carlsberg{     top: calc(56px + 30vh);
     left: calc(-30px + 0vw);width:400px;}
-    .whole.carlsberg{     top: calc(-83px + 0vh);
-    left: calc(-47px + 0vw);transform:scale(0.7);width:400px;}
+    .whole.carlsberg{    top: calc(-92px + 0vh);
+    left: calc(-25px + 0vw);transform:scale(0.7);width:400px;}
 .POST.carlsberg{width:400px;}
 .USER.carlsberg{        right: -178px;
     top: 105px;}
@@ -1880,8 +1890,8 @@ body {width:100%;}
     .caret.amglad{    top: calc(23px + 50vh);
     left: calc(18px + 20vw);;
 }
-    .whole.amglad{transform:scale(.7);top: 6px;
-    left: 26px;transform:scale(1.2);}
+    .whole.amglad{transform:scale(.7);    top: 3px;
+    left: 52px;transform:scale(1.2);}
     .POST.amglad{width:500.11px;}
     .USER.amglad{top: -9px;
     left: 46px;}
@@ -1949,22 +1959,27 @@ width:300px;}
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
   body {
-    background-color: orangered;
+    background-color: orange; 
   }
-  .post {width:544.11px;height:90px;}
+
+
+.post {width:544.11px;height:90px;}
     .test {width:544.11px;height:90px;}
     
     .USER.OP{right: 170px;
         top: 185px;}
-    .BACK.opinvisalign{    left: -773px;
-        top: -226px;}
-    .WD.op {    top: -98px;
+        .BACK.opinvisalign{display:none;}
+    .WD.op {    top: 127px;
     left: -7px;}
-    .whole.op{top:20vh;left:25vw;transform:scale(.8);}
-    .caret.opinvisalign {top:20vh;left:30vw}
+    .whole.op{     left: -86px;
+    top: -31px;transform:scale(.6);width:500px;}
+    .caret.opinvisalign {top: 23vh;
+    left: 44vw; color:red;}
 
 
-    #uncomfortable {position:absolute;left: 114pt;
+    
+
+        #uncomfortable {position:absolute;left: 114pt;
     top: -262px;}
         #asore{position:absolute; width:100px; left: 233pt;
     top: -172pt;}
@@ -1973,10 +1988,11 @@ width:300px;}
     top: -122.5pt;}
         #normal{position:absolute;left: 5pt; top: -111pt;}
 
+
         .caret.replyone {    top: calc(53px + 66vh);
     left: calc(9px + 25vw);}
-        .whole.replyone {position:absolute;    top: -28px;
-    left: -65px;transform:scale(.8);}
+        .whole.replyone {position:absolute;    top: -34px;
+    left: -39px;transform:scale(.7);}
         .post.replyone {text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
                             top: -6px;}
         .USER.replyone {top: 35px;
@@ -1988,8 +2004,9 @@ width:300px;}
 
   
         .caret.replytwo{top:calc(75px + 0vh);left:10px;width:500px;}
-        .whole.replytwo{top: calc(-34px + 0vh);width:500px;
-    left: calc(-60px + 0vw);transform:scale(.8);}
+        .whole.replytwo{    top: calc(-41px + 0vh);
+    width: 500px;
+    left: calc(-38px + 0vw);transform:scale(.7);}
         .POST.replytwo{color:transparent;width:500.11px; height:119px;}
         .USER.replytwo{    right: -89px;    top: 112px;;}
         .WD.replytwo{transform:scale(1.2);}
@@ -2005,7 +2022,7 @@ width:300px;}
 
 
                 .caret.replytworeplyone{top:0;}
-            .whole.replytworeplyone{top:calc(0vh);left:calc(0vw);transform:scale(.8);}
+            .whole.replytworeplyone{top:calc(0vh);left:calc(0vw);transform:scale(.7);}
             .POST.replytworeplyone{width:500.11px;width:500.11px;}
             .USER.replytworeplyone{    top: 62px;
     left: 39px;}
@@ -2021,7 +2038,7 @@ width:300px;}
 .caret.zinc{       top: calc(40vh + 23px);
     left: calc(18px + 0vw);}
 .whole.zinc{      top: 10px;
-    left: -22px;width:500px;transform:scale(0.8);}
+    left: 2px;width:500px;transform:scale(0.7);}
 .POST.zinc{width:500px;}
 .USER.zinc{    right: -45px;
     top: 4px;}
@@ -2036,7 +2053,7 @@ width:300px;}
 .caret.nope{    top: calc(40vh + 23px);
     left: calc(20vw + 18px);}
     .whole.nope{  top: calc(-209px + -15vh);
-    left: calc(-37px + 30vw);}
+    left: calc(-37px + 30vw);transform:scale(.7);}
     .POST.nope{width:500.11px;}
     .USER.nope{        right: -48px;
                                                         top: 10px;}
@@ -2051,8 +2068,8 @@ width:300px;}
 
                                 .caret.carlsberg{     top: calc(56px + 30vh);
     left: calc(-30px + 0vw);width:400px;}
-    .whole.carlsberg{     top: calc(-83px + 0vh);
-    left: calc(-47px + 0vw);transform:scale(0.8);width:400px;}
+    .whole.carlsberg{    top: calc(-92px + 0vh);
+    left: calc(-25px + 0vw);transform:scale(0.7);width:400px;}
 .POST.carlsberg{width:400px;}
 .USER.carlsberg{        right: -178px;
     top: 105px;}
@@ -2069,8 +2086,8 @@ width:300px;}
     .caret.amglad{    top: calc(23px + 50vh);
     left: calc(18px + 20vw);;
 }
-    .whole.amglad{transform:scale(.8);top: 6px;
-    left: 26px;}
+    .whole.amglad{transform:scale(.7);    top: 3px;
+    left: 52px;transform:scale(1.2);}
     .POST.amglad{width:500.11px;}
     .USER.amglad{top: -9px;
     left: 46px;}
@@ -2088,7 +2105,7 @@ width:300px;}
 }
 
 .whole.tastebud{       top: calc(21px + 35vh);
-    left: calc(-174px + 35vw);transform:scale(.8);}
+    left: calc(-174px + 35vw);transform:scale(.7);}
 .POST.tastebud{width:500.11px;}
 .USER.tastebud{right: -48px;
     top: 5px;}
@@ -2108,8 +2125,408 @@ width:300px;}
 
                                 .test.cardboardd{}
                                 .POST.cardboardd{width:500.11px;}
-                                .whole.cardboardd{top:75vh;left:calc(55px + 0vw);transform:scale(.8);}
+                                .whole.cardboardd{top:75vh;left:calc(55px + 0vw);transform:scale(.7);}
                                 .USER.cardboardd{     right: -48px;
+                            top: 8px;}
+
+#imimim{   left: 249px;
+                                top: -6px;width:300px;}
+
+#cardcard{left: 318px;
+                                top: -7px;width:300px;}
+
+#boardboard{left: 1px;
+                                top: 8px;width:300px;}
+
+#thattasteslikewood{    left: 182px;
+                                top: 8px;width:300px;}
+
+
+
+.whole.prague{    top: calc(-514px + 90vh);
+    left: calc(-394px + 45vw);transform:scale(.7);}
+.POST.prague{width:500.11px;}
+.USER.prague{      right: -48px;
+                                top: -13px;}
+.WD.prague{transform:scale(1.2);}
+#supersad{    left: 182px;
+    top: -6px;width:300px;}
+  
+}
+
+
+
+@media only screen and (min-width:901px) and (max-width: 1200px) {
+  body {
+    background-color: yellow; 
+  }
+
+
+.post {width:544.11px;height:90px;}
+    .test {width:544.11px;height:90px;}
+    
+    .USER.OP{right: 170px;
+        top: 185px;}
+        .BACK.opinvisalign{display:none;}
+    .WD.op {    top: 127px;
+    left: -7px;}
+    .whole.op{      left: -60px;
+    top: -30px;transform:scale(.7);width:500px;}
+    .caret.opinvisalign {top: 23vh;
+    left: 44vw; color:red;}
+
+        #uncomfortable {position:absolute;left: 114pt;
+    top: -262px;}
+        #asore{position:absolute; width:100px; left: 233pt;
+    top: -172pt;}
+        #ofmyteeth{position:absolute;width:200px;left: 203pt;    top: -148pt;}
+        #all{position:absolute;  left: 247pt;
+    top: -122.5pt;}
+        #normal{position:absolute;left: 5pt; top: -111pt;}
+
+
+        .caret.replyone {    top: calc(53px + 66vh);
+    left: calc(9px + 25vw);}
+        .whole.replyone {position:absolute;    top: -34px;
+    left: -39px;transform:scale(.7);}
+        .post.replyone {text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
+                            top: -6px;}
+        .USER.replyone {top: 35px;
+    left: 44px;}
+        .WD.replyone{left:70px;top:-6px;transform:scale(1.2);}
+        .likechewingaflavour {left: 100pt;
+                                    top: 10pt; width:544.11px; height:34px;}
+        .test.replyone{color:rgb(26, 26, 26);width:544.11px;height:90px;left: 70px;top: -6px;background-color:transparent;}
+
+  
+        .caret.replytwo{top:calc(75px + 0vh);left:10px;width:500px;}
+        .whole.replytwo{    top: calc(-41px + 0vh);
+    width: 500px;
+    left: calc(-38px + 0vw);transform:scale(.7);}
+        .POST.replytwo{color:transparent;width:500.11px; height:119px;}
+        .USER.replytwo{    right: -89px;    top: 112px;;}
+        .WD.replytwo{transform:scale(1.2);}
+        #wondering{   left: 154px;
+                                        top: -7px;}
+            
+                    #metallic{    top: 65px;
+    left: 43px;}
+            #tastebuds{    top: 79px;
+    left: 0px;}
+            .test.replytwo{}
+            .POST.replytwo{width:500.11px; height:119px;}
+
+
+                .caret.replytworeplyone{top:0;}
+            .whole.replytworeplyone{top:calc(0vh);left:calc(0vw);transform:scale(.7);}
+            .POST.replytworeplyone{width:500.11px;width:500.11px;}
+            .USER.replytworeplyone{    top: 62px;
+    left: 39px;}
+            .WD.replytworeplyone{transform:scale(1.2);
+    left: 87px;
+                                        width: 200px;}
+            .test.replytworeplyone{align:left;}
+
+
+
+
+            
+.caret.zinc{       top: calc(40vh + 23px);
+    left: calc(18px + 0vw);}
+.whole.zinc{      top: 10px;
+    left: 2px;width:500px;transform:scale(0.7);}
+.POST.zinc{width:500px;}
+.USER.zinc{    right: -45px;
+    top: 4px;}
+.WD.zinc{transform:scale(1.2);        top: .5px;
+    left: .5px;}
+#anychance{     width: 300px;
+    left: 83px;
+    top: -7px;}
+#acold{            left: 276px;
+    top: -7px;width:300px;}
+
+.caret.nope{    top: calc(40vh + 23px);
+    left: calc(20vw + 18px);}
+    .whole.nope{  top: calc(-209px + -15vh);
+    left: calc(-37px + 30vw);transform:scale(.7);}
+    .POST.nope{width:500.11px;}
+    .USER.nope{        right: -48px;
+                                                        top: 10px;}
+                            .WD.nope{transform:scale(1.2);}
+                            #nopeihavenot{    left: -55px;
+    top: -6px;width:300px;}
+    #dotdot{ top: -8px;
+    left: 163px;width:300px;}
+
+
+
+
+                                .caret.carlsberg{     top: calc(56px + 30vh);
+    left: calc(-30px + 0vw);width:400px;}
+    .whole.carlsberg{    top: calc(-92px + 0vh);
+    left: calc(-25px + 0vw);transform:scale(0.7);width:400px;}
+.POST.carlsberg{width:400px;}
+.USER.carlsberg{        right: -178px;
+    top: 105px;}
+.WD.carlsberg{transform:scale(1.2);}
+#ihada{    left: -2px;
+    top: -2px;width:300px;}
+                                              #day{     left: 232px;top: -2px;width:300px;}
+                                              #itwas{         left: -1px;
+    top: 12px;width:300px;}
+                                              #paste{    left: 30px;
+    top: 27px;width:300px;}
+
+
+    .caret.amglad{    top: calc(23px + 50vh);
+    left: calc(18px + 20vw);;
+}
+    .whole.amglad{transform:scale(.7);    top: 3px;
+    left: 52px;transform:scale(1.2);}
+    .POST.amglad{width:500.11px;}
+    .USER.amglad{top: -9px;
+    left: 46px;}
+    .WD.amglad{transform:scale(1.2);}
+    #alone{     top: -7px;
+    left: 164px;}
+    #iamalone{    top: -6px;
+    left: 0px;
+    width: 300px;}
+    #anyone{       top: 36px;
+    left: 64px;
+}
+    #anything{    top: 36px;
+    left: 174px;
+}
+
+.whole.tastebud{       top: calc(21px + 35vh);
+    left: calc(-174px + 35vw);transform:scale(.7);}
+.POST.tastebud{width:500.11px;}
+.USER.tastebud{right: -48px;
+    top: 5px;}
+                                   .WD.tastebud{transform:scale(1.2);}
+                                   #onmyteeth{  left: -2px;
+    top: 8px;width:300px;}
+    #inmyhead{       top: 8px;
+    left: 180px;
+width:300px;}
+                                #tastebud{  left: 178px;
+                                top: 7px;width:300px;}
+                                .test.tray{}
+                                
+
+.WD.cardboardd{top: 0px;
+                                left: 0px;transform:scale(1.2);}
+
+                                .test.cardboardd{}
+                                .POST.cardboardd{width:500.11px;}
+                                .whole.cardboardd{top:75vh;left:calc(55px + 0vw);transform:scale(.7);}
+                                .USER.cardboardd{     right: -48px;
+                            top: 8px;}
+
+#imimim{   left: 249px;
+                                top: -6px;width:300px;}
+
+#cardcard{left: 318px;
+                                top: -7px;width:300px;}
+
+#boardboard{left: 1px;
+                                top: 8px;width:300px;}
+
+#thattasteslikewood{    left: 182px;
+                                top: 8px;width:300px;}
+
+
+
+.whole.prague{    top: calc(-514px + 90vh);
+    left: calc(-394px + 45vw);transform:scale(.7);}
+.POST.prague{width:500.11px;}
+.USER.prague{      right: -48px;
+                                top: -13px;}
+.WD.prague{transform:scale(1.2);}
+#supersad{    left: 182px;
+    top: -6px;width:300px;}
+  
+}
+
+@media only screen and (min-width:1201px) and (max-width:1800px) {
+  body {
+    background-color: white; 
+  }
+
+.lemonade {    top: 0vh;
+    left: 42vw;}
+.fishy {    top: 0;
+    left: 220px;}
+.cake {    top: 48vh;
+    left: 69vw;}
+.borger {    left: 1028px;
+    top: 7px;}
+.pizza {top:-10vh;left:0;}
+.post {width:544.11px;height:90px;}
+    .test {width:544.11px;height:90px;}
+    
+    .USER.OP{right: 0px;
+        top: 145px;}
+        .BACK.opinvisalign{display:none;}
+    .WD.op {    top: 127px;
+    left: -7px;  transform: scale(1..5)}
+    .whole.op{     left: -10px;
+    top: -30px;
+    transform: scale(.9);width:500px;}
+    .caret.opinvisalign {top: 23vh;
+    left: 44vw; color:red;}
+
+
+        #uncomfortable {position:absolute;left: 114pt;
+    top: -262px;}
+        #asore{position:absolute; width:100px; left: 233pt;
+    top: -172pt;}
+        #ofmyteeth{position:absolute;width:200px;left: 203pt;    top: -148pt;}
+        #all{position:absolute;  left: 247pt;
+    top: -122.5pt;}
+        #normal{position:absolute;left: 5pt; top: -109pt;}
+
+
+        .caret.replyone {    top: calc(53px + 66vh);
+    left: calc(9px + 25vw);}
+        .whole.replyone {position:absolute;    top: -37px;
+    left: -50px;transform:scale(.9);}
+        .post.replyone {text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
+                            top: -6px;}
+        .USER.replyone {top: 35px;
+    left: 80px;}
+        .WD.replyone{left:70px;top:-6px;transform:scale(1.2);}
+        .likechewingaflavour {left: 100pt;
+                                    top: 10pt; width:544.11px; height:34px;}
+        .test.replyone{color:rgb(26, 26, 26);width:544.11px;height:90px;left: 70px;top: -6px;background-color:transparent;}
+
+  
+        .caret.replytwo{top:calc(95px + 0vh);left:10px;width:500px;}
+        .whole.replytwo{    top: calc(-41px + 0vh);
+    width: 500px;
+    left: calc(-10px + 0vw);transform:scale(.9);}
+        .POST.replytwo{color:transparent;width:500.11px; height:119px;}
+        .USER.replytwo{    right: -49px;    top: 112px;}
+        .WD.replytwo{transform:scale(1.2);}
+        #wondering{   left: 154px;
+                                        top: -7px;}
+            
+                    #metallic{    top: 65px;
+    left: 43px;}
+            #tastebuds{    top: 79px;
+    left: 0px;}
+            .test.replytwo{}
+            .POST.replytwo{width:500.11px; height:119px;}
+
+
+                .caret.replytworeplyone{top:0;}
+            .whole.replytworeplyone{top:calc(0vh);left:calc(-15px);}
+            .POST.replytworeplyone{width:500.11px;width:500.11px;transform:scale(.9);}
+            .USER.replytworeplyone{    top: 62px;
+    left: 39px;}
+            .WD.replytworeplyone{transform:scale(1.2);
+    left: 87px;
+                                        width: 200px;}
+            .test.replytworeplyone{align:left;}
+
+
+
+
+            
+.caret.zinc{       top: calc(40vh + 23px);
+    left: calc(10px + 0vw);}
+.whole.zinc{      top: 10px;
+    left: 32px;width:500px;transform:scale(0.9);}
+.POST.zinc{width:500px;}
+.USER.zinc{    right: 4px;
+    top: 4px;}
+.WD.zinc{transform:scale(1.2);        top: .5px;
+    left: .5px;}
+#anychance{     width: 300px;
+    left: 83px;
+    top: -7px;}
+#acold{            left: 276px;
+    top: -7px;width:300px;}
+
+.caret.nope{    top: calc(40vh + 23px);
+    left: calc(20vw + 18px);}
+    .whole.nope{  top: calc(-209px + -15vh);
+    left: calc(-37px + 40vw);transform:scale(.9);}
+    .POST.nope{width:500.11px;}
+    .USER.nope{        right: -32px;
+                                                        top: 10px;}
+                            .WD.nope{transform:scale(1.2);}
+                            #nopeihavenot{    left: -55px;
+    top: -6px;width:300px;}
+    #dotdot{ top: -8px;
+    left: 163px;width:300px;}
+
+
+
+
+                                .caret.carlsberg{     top: calc(56px + 30vh);
+    left: calc(-30px + 0vw);width:400px;}
+    .whole.carlsberg{    top: calc(-100px + 0vh);
+    left: calc(-2px + 0vw);width:400px;transform:scale(.9);}
+.POST.carlsberg{width:400px;}
+.USER.carlsberg{        right: -139px;
+    top: 105px;}
+.WD.carlsberg{transform:scale(1.2);}
+#ihada{    left: -2px;
+    top: -2px;width:300px;}
+                                              #day{     left: 232px;top: -2px;width:300px;}
+                                              #itwas{         left: -4px;
+    top: 12px;width:300px;}
+                                              #paste{    left: 30px;
+    top: 27px;width:300px;}
+
+
+    .caret.amglad{    top: calc(23px + 50vh);
+    left: calc(18px + 20vw);;
+}
+    .whole.amglad{transform:scale(.9);    top: 3px;
+    left: 52px;}
+    .POST.amglad{width:500.11px;}
+    .USER.amglad{top: -9px;
+    left: 46px;}
+    .WD.amglad{transform:scale(1.2);}
+    #alone{     top: -7px;
+    left: 164px;}
+    #iamalone{    top: -6px;
+    left: 0px;
+    width: 300px;}
+    #anyone{       top: 36px;
+    left: 64px;
+}
+    #anything{    top: 36px;
+    left: 174px;
+}
+
+.whole.tastebud{       top: calc(21px + 40vh);
+    left: calc(-174px + 55vw);transform:scale(.9);}
+.POST.tastebud{width:500.11px;}
+.USER.tastebud{right: 10px;
+    top: 5px;}
+                                   .WD.tastebud{transform:scale(1.2);}
+                                   #onmyteeth{  left: -2px;
+    top: 8px;width:300px;}
+    #inmyhead{       top: 8px;
+    left: 180px;
+width:300px;}
+                                #tastebud{  left: 178px;
+                                top: 7px;width:300px;}
+                                .test.tray{}
+                                
+
+.WD.cardboardd{top: 0px;
+                                left: 0px;transform:scale(1.2);}
+
+                                .test.cardboardd{}
+                                .POST.cardboardd{width:500.11px;}
+                                .whole.cardboardd{top:75vh;left:calc(55px + 0vw);transform:scale(.9);}
+                                .USER.cardboardd{     right: -1px;
                             top: 8px;}
 
 #imimim{   left: 249px;
@@ -2135,29 +2552,33 @@ width:300px;}
 #supersad{    left: 182px;
     top: -6px;width:300px;}
   
-
 }
 
 
 
-@media only screen and (min-width:901px) and (max-width: 1200px) {
+
+
+@media only screen and (min-width: 1801px)  {
   body {
-    background-color:orange; }
-    
-    .post {width:544.11px;height:90px;}
+    background-color: blue; 
+  }
+
+
+.post {width:544.11px;height:90px;}
     .test {width:544.11px;height:90px;}
     
     .USER.OP{right: 170px;
         top: 185px;}
-    .BACK.opinvisalign{    left: -773px;
-        top: -226px;}
-    .WD.op {    top: -98px;
+        .BACK.opinvisalign{display:none;}
+    .WD.op {     top: 131px;
     left: -7px;}
-    .whole.op{top:20vh;left:25vw;transform:scale(.8);}
-    .caret.opinvisalign {top:20vh;left:30vw}
+    .whole.op{  position:absolute;      left: 273px;
+    top: -10px;width:500px;transform:scale(2);}
+    .caret.opinvisalign {top: 23vh;
+    left: 44vw; color:red;}
 
 
-    #uncomfortable {position:absolute;left: 114pt;
+        #uncomfortable {position:absolute;left: 114pt;
     top: -262px;}
         #asore{position:absolute; width:100px; left: 233pt;
     top: -172pt;}
@@ -2169,8 +2590,8 @@ width:300px;}
 
         .caret.replyone {    top: calc(53px + 66vh);
     left: calc(9px + 25vw);}
-        .whole.replyone {position:absolute;    top: -28px;
-    left: -65px;transform:scale(.8);}
+        .whole.replyone {position:absolute;    top: -34px;
+    left: -39px;transform:scale(2);}
         .post.replyone {text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
                             top: -6px;}
         .USER.replyone {top: 35px;
@@ -2182,8 +2603,9 @@ width:300px;}
 
   
         .caret.replytwo{top:calc(75px + 0vh);left:10px;width:500px;}
-        .whole.replytwo{top: calc(-34px + 0vh);width:500px;
-    left: calc(-60px + 0vw);transform:scale(.8);}
+        .whole.replytwo{    top: calc(-41px + 0vh);
+    width: 500px;
+    left: calc(-38px + 0vw);transform:scale(2);}
         .POST.replytwo{color:transparent;width:500.11px; height:119px;}
         .USER.replytwo{    right: -89px;    top: 112px;;}
         .WD.replytwo{transform:scale(1.2);}
@@ -2199,7 +2621,7 @@ width:300px;}
 
 
                 .caret.replytworeplyone{top:0;}
-            .whole.replytworeplyone{top:calc(0vh);left:calc(0vw);transform:scale(.8);}
+            .whole.replytworeplyone{top:calc(0vh);left:calc(0vw);transform:scale(2);}
             .POST.replytworeplyone{width:500.11px;width:500.11px;}
             .USER.replytworeplyone{    top: 62px;
     left: 39px;}
@@ -2215,7 +2637,7 @@ width:300px;}
 .caret.zinc{       top: calc(40vh + 23px);
     left: calc(18px + 0vw);}
 .whole.zinc{      top: 10px;
-    left: -22px;width:500px;transform:scale(0.8);}
+    left: 2px;width:500px;transform:scale(2);}
 .POST.zinc{width:500px;}
 .USER.zinc{    right: -45px;
     top: 4px;}
@@ -2229,8 +2651,8 @@ width:300px;}
 
 .caret.nope{    top: calc(40vh + 23px);
     left: calc(20vw + 18px);}
-    .whole.nope{  top: calc(-209px + -20vh);
-    left: calc(-37px + 30vw);}
+    .whole.nope{  top: calc(-209px + -15vh);
+    left: calc(-37px + 30vw);transform:scale(.7);}
     .POST.nope{width:500.11px;}
     .USER.nope{        right: -48px;
                                                         top: 10px;}
@@ -2245,8 +2667,8 @@ width:300px;}
 
                                 .caret.carlsberg{     top: calc(56px + 30vh);
     left: calc(-30px + 0vw);width:400px;}
-    .whole.carlsberg{     top: calc(-83px + 0vh);
-    left: calc(-47px + 0vw);transform:scale(0.8);width:400px;}
+    .whole.carlsberg{    top: calc(-92px + 0vh);
+    left: calc(-25px + 0vw);transform:scale(2);width:400px;}
 .POST.carlsberg{width:400px;}
 .USER.carlsberg{        right: -178px;
     top: 105px;}
@@ -2263,8 +2685,8 @@ width:300px;}
     .caret.amglad{    top: calc(23px + 50vh);
     left: calc(18px + 20vw);;
 }
-    .whole.amglad{transform:scale(.8);top: 6px;
-    left: 26px;}
+    .whole.amglad{   top: 3px;
+    left: 52px;transform:scale(2);}
     .POST.amglad{width:500.11px;}
     .USER.amglad{top: -9px;
     left: 46px;}
@@ -2282,7 +2704,7 @@ width:300px;}
 }
 
 .whole.tastebud{       top: calc(21px + 35vh);
-    left: calc(-174px + 35vw);transform:scale(.8);}
+    left: calc(-174px + 35vw);transform:scale(.9);}
 .POST.tastebud{width:500.11px;}
 .USER.tastebud{right: -48px;
     top: 5px;}
@@ -2302,7 +2724,7 @@ width:300px;}
 
                                 .test.cardboardd{}
                                 .POST.cardboardd{width:500.11px;}
-                                .whole.cardboardd{top:75vh;left:calc(55px + 0vw);transform:scale(.8);}
+                                .whole.cardboardd{top:75vh;left:calc(55px + 0vw);transform:scale(2);}
                                 .USER.cardboardd{     right: -48px;
                             top: 8px;}
 
@@ -2320,417 +2742,15 @@ width:300px;}
 
 
 
-.whole.prague{    top: calc(-514px + 30vh);
-    left: calc(-394px + 45vw);}
+.whole.prague{    top: calc(0px + 90vh);
+    left: calc(0px + 45vw);transform:scale(2);}
 .POST.prague{width:500.11px;}
 .USER.prague{      right: -48px;
                                 top: -13px;}
 .WD.prague{transform:scale(1.2);}
 #supersad{    left: 182px;
     top: -6px;width:300px;}
-  }
-
-
-@media only screen and (min-width:1201px) and (max-width:1800px) {
-  body {
-    background-color:white;}
-
-    .fooditems{transform:scale(1.0)}
-
-    .post {width:544.11px;height:90px;}
-    .test {width:544.11px;height:90px;}
-    .draggable.lemonade{    left: 20vw;
-    top: 20vh;transform: rotate(0deg);}
-
-    .draggable.borger{    left: 80vw;
-    top: 0vh rotate(0deg);}
-
-    .draggable.pizza{    left: 0vw;
-    top: -15vh;transform: rotate(0deg);}
-
-
-    .draggable.fishy{    left: 55vw;
-    top: 25vh;transform:scale(1.1) rotate(0deg);}
-    .draggable.cake{    left: 30vw;
-    top: 25vh;}
-
-    .USER.OP{right: 170px;
-        top: 185px;}
-    .BACK.opinvisalign{    left: -773px;
-        top: -226px;}
-    .WD.op {    top: -98px;
-    left: -7px;}
-    .whole.op{top:20vh;left:45vw;}
-    .caret.opinvisalign {top:20vh;left:45vw}
-
-
-    #uncomfortable {position:absolute;left: 114pt;
-    top: -262px;}
-        #asore{position:absolute; width:100px; left: 233pt;
-    top: -172pt;}
-        #ofmyteeth{position:absolute;width:200px;left: 203pt;    top: -148pt;}
-        #all{position:absolute;  left: 247pt;
-    top: -122.5pt;}
-        #normal{position:absolute;left: 5pt; top: -111pt;}
-
-
-        .caret.replyone {    top: calc(53px + 77vh);
-    left: calc(9px + 50vw);}
-        .whole.replyone {position:absolute;    top: -28px;
-    left: -65px;transform:scale(.8);}
-        .post.replyone {text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
-                            top: -6px;}
-        .USER.replyone {top: 35px;
-    left: 80px;}
-        .WD.replyone{left:70px;top:-6px;transform:scale(1.2);}
-        .likechewingaflavour {left: 100pt;
-                                    top: 10pt; width:544.11px; height:34px;}
-        .test.replyone{color:rgb(26, 26, 26);width:544.11px;height:90px;left: 70px;top: -6px;background-color:transparent;}
-
   
-        .caret.replytwo{top:calc(75px + 0vh);left:10px;width:500px;}
-        .whole.replytwo{top: calc(-34px + 0vh);width:500px;
-    left: calc(-60px + 0vw);transform:scale(.8);}
-        .POST.replytwo{color:transparent;width:500.11px; height:119px;}
-        .USER.replytwo{    right: -89px;    top: 112px;;}
-        .WD.replytwo{transform:scale(1.2);}
-        #wondering{   left: 154px;
-                                        top: -7px;}
-            
-                    #metallic{    top: 65px;
-    left: 43px;}
-            #tastebuds{    top: 79px;
-    left: 0px;}
-            .test.replytwo{}
-            .POST.replytwo{width:500.11px; height:119px;}
-
-
-                .caret.replytworeplyone{top:0;}
-            .whole.replytworeplyone{top:calc(0vh);left:calc(0vw);transform:scale(.8);}
-            .POST.replytworeplyone{width:500.11px;width:500.11px;}
-            .USER.replytworeplyone{    top: 62px;
-    left: 39px;}
-            .WD.replytworeplyone{transform:scale(1.2);
-    left: 87px;
-                                        width: 200px;}
-            .test.replytworeplyone{align:left;}
-
-
-
-
-            
-.caret.zinc{       top: calc(20vh + 23px);
-    left: calc(18px + 0vw);}
-.whole.zinc{      top: 10px;
-    left: -22px;width:500px;transform:scale(0.8);}
-.POST.zinc{width:500px;}
-.USER.zinc{    right: -45px;
-    top: 4px;}
-.WD.zinc{transform:scale(1.2);        top: .5px;
-    left: .5px;}
-#anychance{     width: 300px;
-    left: 83px;
-    top: -7px;}
-#acold{            left: 276px;
-    top: -7px;width:300px;}
-
-.caret.nope{    top: calc(40vh + 23px);
-    left: calc(20vw + 18px);}
-    .whole.nope{  top: calc(-209px + 110vh);
-    left: calc(-37px + 70vw);}
-    .POST.nope{width:500.11px;}
-    .USER.nope{        right: -48px;
-                                                        top: 10px;}
-                            .WD.nope{transform:scale(1.2);}
-                            #nopeihavenot{    left: -55px;
-    top: -6px;width:300px;}
-    #dotdot{ top: -8px;
-    left: 163px;width:300px;}
-
-
-
-
-                                .caret.carlsberg{     top: calc(56px + 30vh);
-    left: calc(-30px + 0vw);width:400px;}
-    .whole.carlsberg{     top: calc(-83px + 0vh);
-    left: calc(-47px + 0vw);transform:scale(0.8);width:400px;}
-.POST.carlsberg{width:400px;}
-.USER.carlsberg{        right: -178px;
-    top: 105px;}
-.WD.carlsberg{transform:scale(1.2);}
-#ihada{    left: -2px;
-    top: -2px;width:300px;}
-                                              #day{     left: 232px;top: -2px;width:300px;}
-                                              #itwas{         left: -1px;
-    top: 12px;width:300px;}
-                                              #paste{    left: 30px;
-    top: 27px;width:300px;}
-
-
-    .caret.amglad{    top: calc(23px + 50vh);
-    left: calc(18px + 20vw);;
-}
-    .whole.amglad{transform:scale(.8);top: 6px;
-    left: 26px;}
-    .POST.amglad{width:500.11px;}
-    .USER.amglad{top: -9px;
-    left: 46px;}
-    .WD.amglad{transform:scale(1.2);}
-    #alone{     top: -7px;
-    left: 164px;}
-    #iamalone{    top: -6px;
-    left: 0px;
-    width: 300px;}
-    #anyone{       top: 36px;
-    left: 64px;
-}
-    #anything{    top: 36px;
-    left: 174px;
-}
-
-.whole.tastebud{        top: calc(21px + 50vh);
-    left: calc(-174px + 60vw);transform:scale(.8);}
-.POST.tastebud{width:500.11px;}
-.USER.tastebud{right: -48px;
-    top: 5px;}
-                                   .WD.tastebud{transform:scale(1.2);}
-                                   #onmyteeth{  left: -2px;
-    top: 8px;width:300px;}
-    #inmyhead{       top: 8px;
-    left: 180px;
-width:300px;}
-                                #tastebud{  left: 178px;
-                                top: 7px;width:300px;}
-                                .test.tray{}
-                                
-
-.WD.cardboardd{top: 0px;
-                                left: 0px;transform:scale(1.2);}
-
-                                .test.cardboardd{}
-                                .POST.cardboardd{width:500.11px;}
-                                .whole.cardboardd{top:80vh;left:calc(55px + 0vw);transform:scale(.8);}
-                                .USER.cardboardd{     right: -48px;
-                            top: 8px;}
-
-#imimim{   left: 249px;
-                                top: -6px;width:300px;}
-
-#cardcard{left: 318px;
-                                top: -7px;width:300px;}
-
-#boardboard{left: 1px;
-                                top: 8px;width:300px;}
-
-#thattasteslikewood{    left: 182px;
-                                top: 8px;width:300px;}
-
-
-
-.whole.prague{    top: calc(-514px + 0vh);
-    left: calc(-394px + 75vw);}
-.POST.prague{width:500.11px;}
-.USER.prague{      right: -48px;
-                                top: -13px;}
-.WD.prague{transform:scale(1.2);}
-#supersad{    left: 182px;
-    top: -6px;width:300px;}
-
-}
-
-
-
-
-
-@media only screen and (min-width: 1801px)  {
-  body {
-    background-color:lightskyblue;}
-
-    .post {width:544.11px;height:90px;}
-    .test {width:544.11px;height:90px;}
-    
-    .USER.OP{right: 170px;
-        top: 185px;}
-    .BACK.opinvisalign{    left: -773px;
-        top: -226px;}
-    .WD.op {    top: -98px;
-    left: -7px;}
-    .whole.op{top:20vh;left:45vw;transform:scale(1.3);}
-    .caret.opinvisalign {top:20vh;left:45vw;}
-
-
-    #uncomfortable {position:absolute;left: 114pt;
-    top: -262px;}
-        #asore{position:absolute; width:100px; left: 233pt;
-    top: -172pt;}
-        #ofmyteeth{position:absolute;width:200px;left: 203pt;    top: -148pt;}
-        #all{position:absolute;  left: 247pt;
-    top: -122.5pt;}
-        #normal{position:absolute;left: 5pt; top: -111pt;}
-
-
-        .caret.replyone {    top: calc(53px + 77vh);
-    left: calc(9px + 50vw);}
-        .whole.replyone {position:absolute;    top: -28px;
-    left: -65px;transform:scale(1.3);}
-        .post.replyone {text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
-                            top: -6px;}
-        .USER.replyone {top: 35px;
-    left: 80px;}
-        .WD.replyone{left:70px;top:-6px;transform:scale(1.2);}
-        .likechewingaflavour {left: 100pt;
-                                    top: 10pt; width:544.11px; height:34px;}
-        .test.replyone{color:rgb(26, 26, 26);width:544.11px;height:90px;left: 70px;top: -6px;background-color:transparent;}
-
-  
-        .caret.replytwo{top:calc(75px + 0vh);left:10px;width:500px;}
-        .whole.replytwo{top: calc(-34px + 0vh);width:500px;
-    left: calc(-60px + 0vw);transform:scale(1.3);}
-        .POST.replytwo{color:transparent;width:500.11px; height:119px;}
-        .USER.replytwo{    right: -89px;    top: 112px;;}
-        .WD.replytwo{transform:scale(1.2);}
-        #wondering{   left: 154px;
-                                        top: -7px;}
-            
-                    #metallic{    top: 65px;
-    left: 43px;}
-            #tastebuds{    top: 79px;
-    left: 0px;}
-            .test.replytwo{}
-            .POST.replytwo{width:500.11px; height:119px;}
-
-
-                .caret.replytworeplyone{top:0;}
-            .whole.replytworeplyone{top:calc(0vh);left:calc(0vw);transform:scale(1.3);}
-            .POST.replytworeplyone{width:500.11px;width:500.11px;}
-            .USER.replytworeplyone{    top: 62px;
-    left: 39px;}
-            .WD.replytworeplyone{transform:scale(1.2);
-    left: 87px;
-                                        width: 200px;}
-            .test.replytworeplyone{align:left;}
-
-
-
-
-            
-.caret.zinc{       top: calc(20vh + 23px);
-    left: calc(18px + 0vw);}
-.whole.zinc{      top: 10px;
-    left: -22px;width:500px;transform:scale(1.3);}
-.POST.zinc{width:500px;}
-.USER.zinc{    right: -45px;
-    top: 4px;}
-.WD.zinc{transform:scale(1.2);        top: .5px;
-    left: .5px;}
-#anychance{     width: 300px;
-    left: 83px;
-    top: -7px;}
-#acold{            left: 276px;
-    top: -7px;width:300px;}
-
-.caret.nope{    top: calc(40vh + 23px);
-    left: calc(20vw + 18px);}
-    .whole.nope{  top: calc(-209px + 110vh);
-    left: calc(-37px + 70vw);transform:scale(1.3);}
-    .POST.nope{width:500.11px;}
-    .USER.nope{        right: -48px;
-                                                        top: 10px;}
-                            .WD.nope{transform:scale(1.2);}
-                            #nopeihavenot{    left: -55px;
-    top: -6px;width:300px;}
-    #dotdot{ top: -8px;
-    left: 163px;width:300px;}
-
-
-
-
-                                .caret.carlsberg{     top: calc(56px + 30vh);
-    left: calc(-30px + 0vw);width:400px;}
-    .whole.carlsberg{     top: calc(-83px + 0vh);
-    left: calc(-47px + 0vw);transform:scale(1.3);width:400px;}
-.POST.carlsberg{width:400px;}
-.USER.carlsberg{        right: -178px;
-    top: 105px;}
-.WD.carlsberg{transform:scale(1.2);}
-#ihada{    left: -2px;
-    top: -2px;width:300px;}
-                                              #day{     left: 232px;top: -2px;width:300px;}
-                                              #itwas{         left: -1px;
-    top: 12px;width:300px;}
-                                              #paste{    left: 30px;
-    top: 27px;width:300px;}
-
-
-    .caret.amglad{    top: calc(23px + 50vh);
-    left: calc(18px + 20vw);;
-}
-    .whole.amglad{transform:scale(1.3);top: 6px;
-    left: 26px;}
-    .POST.amglad{width:500.11px;}
-    .USER.amglad{top: -9px;
-    left: 46px;}
-    .WD.amglad{transform:scale(1.2);}
-    #alone{     top: -7px;
-    left: 164px;}
-    #iamalone{    top: -6px;
-    left: 0px;
-    width: 300px;}
-    #anyone{       top: 36px;
-    left: 64px;
-}
-    #anything{    top: 36px;
-    left: 174px;
-}
-
-.whole.tastebud{        top: calc(21px + 60vh);
-    left: calc(-174px + 60vw);transform:scale(1.3);}
-.POST.tastebud{width:500.11px;}
-.USER.tastebud{right: -48px;
-    top: 5px;}
-                                   .WD.tastebud{transform:scale(1.2);}
-                                   #onmyteeth{  left: -2px;
-    top: 8px;width:300px;}
-    #inmyhead{       top: 8px;
-    left: 180px;
-width:300px;}
-                                #tastebud{  left: 178px;
-                                top: 7px;width:300px;}
-                                .test.tray{}
-                                
-
-.WD.cardboardd{top: 0px;
-                                left: 0px;transform:scale(1.3);}
-
-                                .test.cardboardd{}
-                                .POST.cardboardd{width:500.11px;}
-                                .whole.cardboardd{top:80vh;left:calc(55px + 0vw);transform:scale(.8);}
-                                .USER.cardboardd{     right: -48px;
-                            top: 8px;}
-
-#imimim{   left: 249px;
-                                top: -6px;width:300px;}
-
-#cardcard{left: 318px;
-                                top: -7px;width:300px;}
-
-#boardboard{left: 1px;
-                                top: 8px;width:300px;}
-
-#thattasteslikewood{    left: 182px;
-                                top: 8px;width:300px;}
-
-
-
-.whole.prague{    top: calc(-514px + 0vh);
-    left: calc(-394px + 60vw);transform:scale(1.3);}
-.POST.prague{width:500.11px;}
-.USER.prague{      right: -48px;
-                                top: -13px;}
-.WD.prague{transform:scale(1.2);}
-#supersad{    left: 182px;
-    top: -6px;width:300px;}
-
 }
 
 
@@ -2916,51 +2936,51 @@ text-align:right;
 
         <li>
             
-            <span class="caret opinvisalign" style="position:relative;"></span>
-                                    <div class="whole op" style="position:relative;">
-                                                <div class="POSTOP" style="position:absolute;">
-                                                    <div class="LINK">
-                                                        <a href="https://www.realself.com/forum/started-invisalign">https://www.realself.com/forum/started-invisalign</a>
-                                                  </div>
-                                                <span style="color:transparent;">I'm on day 4 of my first tray...or the "training tray" as my ortho<br> 
-                                                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaaabllle*</span>, which I understand<br> and 
-                                                can deal with.  What I am having a hard time dealing with is<br>
-                                                the sharp edges. The front bottom has created <span style="color:transparent;">*a sioore*</span> on my inner <br> bottom lip, I have cutouts
-                                                for elastic that is cutting up the inside of<br> my upper lip.  The edges 
-                                                on the backside <span style="color:transparent;">*offffff my tleeth* </span>are cutting<br> up my tongue.  This can’t be normal! 
-                                                I cant possibly deal with this for <br> 18 months!     Also, I find myself clenching my 
-                                                teeth <span style="color:transparent;">*al*</span> the time now...<span style="color:transparent;">*normaaaaal?*</span><br></span>
+            <span class="caret opinvisalign" style="position:relative;"><div class="whole op" style="position:relative;">
+                <div class="POSTOP" style="position:absolute;">
+                    <div class="LINK">
+                        <a href="https://www.realself.com/forum/started-invisalign">https://www.realself.com/forum/started-invisalign</a>
+                  </div>
+                <span style="color:transparent;">I'm on day 4 of my first tray...or the "training tray" as my ortho<br> 
+                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaaabllle*</span>, which I understand<br> and 
+                can deal with.  What I am having a hard time dealing with is<br>
+                the sharp edges. The front bottom has created <span style="color:transparent;">*a sioore*</span> on my inner <br> bottom lip, I have cutouts
+                for elastic that is cutting up the inside of<br> my upper lip.  The edges 
+                on the backside <span style="color:transparent;">*offffff my tleeth* </span>are cutting<br> up my tongue.  This can’t be normal! 
+                I cant possibly deal with this for <br> 18 months!     Also, I find myself clenching my 
+                teeth <span style="color:transparent;">*al*</span> the time now...<span style="color:transparent;">*normaaaaal?*</span><br></span>
 
-                                                
-                                                <div class="USER OP">skyeluna, member since '14, 23 posts</div>
-                                                <div class="BACK opinvisalign" style="color:white;">
-                                                      JUST <br>STARTED<br>
-                                                     INVISALIGN<br>
-                                                </div>
-                                                
-                                                <div class="GREEN op:position:absolute;">
-                                                    <div class="WD op">
-                                                          <span id="uncomfortable" style="position:absolute;">uncomfortable</span>
-                                                          <span id="asore" style="position:absolute;">a sore</span>
-                                                          <span id="ofmyteeth" style="position:absolute;">of my teeth</span>
-                                                          <span id="all" style="position:absolute;">all</span>
-                                                          <span id="normal"style="position:absolute;">normal?</span>
-                                                    </div>
-                                                    <div class="EM"></div>
-                                              </div>
+                
+                <div class="USER OP">skyeluna, member since '14, 23 posts</div>
+                <div class="BACK opinvisalign" style="color:white;">
+                      JUST <br>STARTED<br>
+                     INVISALIGN<br>
+                </div>
+                
+                <div class="GREEN op:position:absolute;">
+                    <div class="WD op">
+                          <span id="uncomfortable" style="position:absolute;">uncomfortable</span>
+                          <span id="asore" style="position:absolute;">a sore</span>
+                          <span id="ofmyteeth" style="position:absolute;">of my teeth</span>
+                          <span id="all" style="position:absolute;">all</span>
+                          <span id="normal"style="position:absolute;">normal?</span>
+                    </div>
+                    <div class="EM"></div>
+              </div>
 
-                                              <div class="test" style="position:absolute;left:0;top:0;color:black;">
-                                                <span>I'm on day 4 of my first tray...or the "training tray" as my ortho<br> 
-                                                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaaabllle*</span>, which I understand<br> and 
-                                                can deal with.  What I am having a hard time dealing with is<br>
-                                                the sharp edges. The front bottom has created <span style="color:transparent;">*a sioore*</span> on my inner <br> bottom lip, I have cutouts
-                                                for elastic that is cutting up the inside of<br> my upper lip.  The edges 
-                                                on the backside <span style="color:transparent;">*offffff my tleeth* </span>are cutting<br> up my tongue.  This can’t be normal! 
-                                                I cant possibly deal with this for <br> 18 months!     Also, I find myself clenching my 
-                                                teeth <span style="color:transparent;">*al*</span> the time now...<span style="color:transparent;">*normaaaaal?*</span><br></span>
-                                                </div>
-                                            </div>  
-                                        </div>
+              <div class="test" style="position:absolute;left:0;top:0;color:black;">
+                <span>I'm on day 4 of my first tray...or the "training tray" as my ortho<br> 
+                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaaabllle*</span>, which I understand<br> and 
+                can deal with.  What I am having a hard time dealing with is<br>
+                the sharp edges. The front bottom has created <span style="color:transparent;">*a sioore*</span> on my inner <br> bottom lip, I have cutouts
+                for elastic that is cutting up the inside of<br> my upper lip.  The edges 
+                on the backside <span style="color:transparent;">*offffff my tleeth* </span>are cutting<br> up my tongue.  This can’t be normal! 
+                I cant possibly deal with this for <br> 18 months!     Also, I find myself clenching my 
+                teeth <span style="color:transparent;">*al*</span> the time now...<span style="color:transparent;">*normaaaaal?*</span><br></span>
+                </div>
+            </div>  
+        </div></span>
+                                    
             <ul class="nested">
                 <li>
                     <span class="caret replyone" style="position:relative;"><div class="whole replyone" style="position:absolute;">
