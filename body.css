@@ -1,0 +1,41 @@
+  
+.drag {
+    position: absolute;
+    border: 1px solid #89B;
+    background: #BCE;
+    height: 58px;
+    width: 58px;
+    cursor: move;
+    top: 120px;
+    }
+ #container {
+    height: 299px;
+    border: 1px dashed #888;
+    }
+
+ 
+ 
+ 
+ body{overflow:none;scroll:none;position:fixed;}
+ 
+ 
+ 
+ 
+ 
+ marquee{  font-family: elliotts-jigsaw-dropshadow, sans-serif;
+       font-style: normal;
+     font-weight: 100;
+     font-size: 200pt;
+     letter-spacing:-30pt;
+     width: 100%;
+ position:relative;
+ top:calc(50vh + -150px);
+ 
+ }
+
+
+ button {position:absolute;background-color:red;font-size:20pt;cursor:pointer;}
+
+
+
+ 
