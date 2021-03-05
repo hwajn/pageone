@@ -13,7 +13,12 @@
     border: 1px dashed #888;
     }
 
- 
+    .transparent {color:transparent;}
+
+
+
+
+
  
  
  body{overflow:none;scroll:none;position:fixed;}
