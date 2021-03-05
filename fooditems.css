@@ -3,17 +3,17 @@
 
 
 
-.fooditems {transform:scale(1.1);z-index:200000;position:absolute;}
-.lemonade {left:400vw;top:30vh;}
-.cake {left:-400vw;top:140vh;}
-.fishy {left:-800vw;top:-10vh;}
-.borger {left:200vw;top:30vh;}
-.pizza {left:500vw;top:50vh;}
+.fooditems {transform:scale(1.1);z-index:200000;position:absolute;top:0;left:0;}
+.lemonade {left:70vw;top:10vh;}
+.draggable.cake {left:50vw;top:-10vh;}
+.fishy {right:-30vw;top:-5vh;}
+.borger {left:30vw;top:50vh;}
+.pizza {left:0vw;top:0vh;}
 
 
 
 
-#cake {position:absolute;}
+#cake {position:absolute;top:0;left:0;}
 .cake {position:absolute;}
 
 .cakerow1sq1 {height: 30px;
@@ -2047,8 +2047,7 @@ background-color:#f7f5f3;}
 
 .borger {position:relative;}
     .borgerchild {position:relative;
-        top:100px;
-        left:600px;}
+}
 
         .borgerrow1 {position:relative;top:0px;}
         .borgerrow1obj1 {position:absolute;
@@ -2236,9 +2235,7 @@ background-color:#f7f5f3;}
             left:150px;}
 
 
-.lemonade{position:relative;
-    top:100px;
-    left:500px;}
+.lemonade{position:relative;}
 
     .lemonchild{position:relative;}
 
@@ -2514,8 +2511,7 @@ background-color:#f7f5f3;}
 
 
 .fishy {position:relative;
-    top:300px;
-    left:200px}
+}
     .fishychild {position:relative;}
     
 
@@ -2744,8 +2740,7 @@ background-color:#f7f5f3;}
   
   
 .pizza {position:relative;
-    top:300px;
-    left:200px}
+}
 
 
         .pizzarow1 {position:relative;
