@@ -53,7 +53,7 @@ ul, #myUL {
             white-space: nowrap;
             width: 5000px;
             height:auto;
-            color: rgb(255, 0, 221);
+            color: white;
             overflow:visible;
    z-index:-10;
         }
@@ -66,7 +66,7 @@ button{z-index:1000; }
         
 
 body {width:100%;}
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
   body {
     background-color: red; 
   }
@@ -153,7 +153,8 @@ font-family: kazimir, sans-serif;
 
 
   
-}
+}*/
+/*
 @media only screen and (min-width:601px) and (max-width: 900px) {
   body {
     background-color: orange; 
@@ -245,9 +246,9 @@ font-family: kazimir, sans-serif;
 
 }
 }
+*/
 
-
-
+/*
 @media only screen and (max-width: 1200px) 
  {
   body {top:0;left:0;
@@ -344,9 +345,9 @@ font-family: kazimir, sans-serif;
 
 
  
- 
-
-@media only screen and (min-width:1201px) and (max-width:1800px){
+ */
+/*
+@media only screen and (min-width:1201px) and (max-width:1800px){*/
   body {
     background-color: white; }
 
